@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://0lyiifkefn2f"
-path="res://.godot/imported/bubble.png-dd17930a71c5ad345ddb3eb8ec316790.ctex"
+uid="uid://lsk7y4a5bu2h"
+path="res://.godot/imported/poddleWater.png-bf29d5e6a55002e09f0297fcfb0919d5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/bubble.png"
-dest_files=["res://.godot/imported/bubble.png-dd17930a71c5ad345ddb3eb8ec316790.ctex"]
+source_file="res://assets/poddleWater.png"
+dest_files=["res://.godot/imported/poddleWater.png-bf29d5e6a55002e09f0297fcfb0919d5.ctex"]
 
 [params]
 

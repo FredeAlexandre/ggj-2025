@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://0lyiifkefn2f"
-path="res://.godot/imported/bubble.png-dd17930a71c5ad345ddb3eb8ec316790.ctex"
+uid="uid://fkxjpkhw5o2j"
+path="res://.godot/imported/toothpaste.png-bc312e64292d1f9e8e8a9574ee151898.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/bubble.png"
-dest_files=["res://.godot/imported/bubble.png-dd17930a71c5ad345ddb3eb8ec316790.ctex"]
+source_file="res://assets/toothpaste.png"
+dest_files=["res://.godot/imported/toothpaste.png-bc312e64292d1f9e8e8a9574ee151898.ctex"]
 
 [params]
 
