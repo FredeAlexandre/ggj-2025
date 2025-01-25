@@ -1,13 +1,13 @@
 [gd_scene load_steps=5 format=3 uid="uid://cbqcecafext8y"]
 
 [ext_resource type="Script" path="res://screens/game/scripts/main.gd" id="1_nyida"]
-[ext_resource type="Texture2D" uid="uid://bgogbw0bw2ky5" path="res://icon.svg" id="2_5fgaa"]
-[ext_resource type="PackedScene" uid="uid://cpel2scqfh5vk" path="res://scenes/circle.tscn" id="2_usyva"]
 [ext_resource type="Texture2D" uid="uid://dcn4jbvyrsf45" path="res://assets/carlage.png" id="4_gk5sc"]
+[ext_resource type="PackedScene" uid="uid://cpel2scqfh5vk" path="res://scenes/bubble.tscn" id="2_usyva"]
+[ext_resource type="PackedScene" uid="uid://dd2ncy6rypp4" path="res://scenes/soap.tscn" id="3_lb41u"]
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_nyida")
-circle_scene = ExtResource("2_usyva")
+bubble_scene = ExtResource("2_usyva")
 
 [node name="TextureRect" type="TextureRect" parent="."]
 texture_filter = 1
@@ -16,7 +16,5 @@ offset_bottom = 1086.0
 texture = ExtResource("4_gk5sc")
 stretch_mode = 1
 
-[node name="Square" type="Sprite2D" parent="."]
-position = Vector2(995, 575)
-scale = Vector2(0.601562, 0.570312)
-texture = ExtResource("2_5fgaa")
+[node name="Soap" parent="." instance=ExtResource("3_lb41u")]
+position = Vector2(93, 344)
