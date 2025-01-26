@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dcn4jbvyrsf45"
-path="res://.godot/imported/carlage.png-7460eb607c58665e92e56b395b5bef5b.ctex"
+uid="uid://cvnxag1y4x1n1"
+path="res://.godot/imported/carrelage.png-23bfcf132b81db2d8008dea474e2e407.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/carlage.png"
-dest_files=["res://.godot/imported/carlage.png-7460eb607c58665e92e56b395b5bef5b.ctex"]
+source_file="res://assets/carrelage.png"
+dest_files=["res://.godot/imported/carrelage.png-23bfcf132b81db2d8008dea474e2e407.ctex"]
 
 [params]
 
