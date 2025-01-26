@@ -2,20 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<< HEAD
-uid="uid://bglsm2a8s3biw"
-=======
-uid="uid://ducyh0mig7k3u"
->>>>>>> main
-path="res://.godot/imported/soap.png-7569c5fda2ba9904a2b5643fd8f979fc.ctex"
+uid="uid://fkxjpkhw5o2j"
+path="res://.godot/imported/toothpaste.png-bc312e64292d1f9e8e8a9574ee151898.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/soap.png"
-dest_files=["res://.godot/imported/soap.png-7569c5fda2ba9904a2b5643fd8f979fc.ctex"]
+source_file="res://assets/toothpaste.png"
+dest_files=["res://.godot/imported/toothpaste.png-bc312e64292d1f9e8e8a9574ee151898.ctex"]
 
 [params]
 
