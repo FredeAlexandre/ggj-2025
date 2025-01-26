@@ -1,3 +1,91 @@
-[gd_scene format=3 uid="uid://dohuhxj50rd46"]
+[gd_scene load_steps=8 format=3 uid="uid://dohuhxj50rd46"]
 
-[node name="Main" type="Node2D"]
+[ext_resource type="Script" path="res://screens/home/main.gd" id="1_7g3vp"]
+[ext_resource type="Texture2D" uid="uid://dcn4jbvyrsf45" path="res://assets/carlage.png" id="2_rg4ie"]
+[ext_resource type="AudioStream" uid="uid://dabk7rf7ucd7x" path="res://assets/menuMusic.mp3" id="3_v1q0t"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_vi2ws"]
+texture = ExtResource("2_rg4ie")
+
+[sub_resource type="Theme" id="Theme_nf4u8"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_yobfu"]
+bg_color = Color(0.894118, 0.607843, 0.643137, 1)
+corner_radius_top_left = 50
+corner_radius_top_right = 50
+corner_radius_bottom_right = 50
+corner_radius_bottom_left = 50
+shadow_color = Color(0, 0, 0, 0.0470588)
+shadow_size = 10
+shadow_offset = Vector2(5, 5)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dne26"]
+bg_color = Color(0.894118, 0.607843, 0.643137, 1)
+corner_radius_top_left = 50
+corner_radius_top_right = 50
+corner_radius_bottom_right = 50
+corner_radius_bottom_left = 50
+shadow_color = Color(0, 0, 0, 0.0352941)
+shadow_size = 10
+shadow_offset = Vector2(5, 5)
+
+[node name="Menu" type="Control"]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("1_7g3vp")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -957.0
+offset_top = -538.0
+offset_right = 958.0
+offset_bottom = 543.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_vi2ws")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -203.0
+offset_top = -94.0
+offset_right = 203.0
+offset_bottom = 94.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 50
+
+[node name="Play" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme = SubResource("Theme_nf4u8")
+theme_override_font_sizes/font_size = 50
+theme_override_styles/normal = SubResource("StyleBoxFlat_yobfu")
+text = "PLAY"
+
+[node name="Quit" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+theme_override_styles/normal = SubResource("StyleBoxFlat_dne26")
+text = "QUIT"
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_v1q0t")
+autoplay = true
+
+[connection signal="pressed" from="VBoxContainer/Play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="VBoxContainer/Quit" to="." method="_on_quit_pressed"]
