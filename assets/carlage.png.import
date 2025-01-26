@@ -2,20 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<< HEAD
-uid="uid://bglsm2a8s3biw"
-=======
-uid="uid://ducyh0mig7k3u"
->>>>>>> main
-path="res://.godot/imported/soap.png-7569c5fda2ba9904a2b5643fd8f979fc.ctex"
+uid="uid://dcn4jbvyrsf45"
+path="res://.godot/imported/carlage.png-7460eb607c58665e92e56b395b5bef5b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/soap.png"
-dest_files=["res://.godot/imported/soap.png-7569c5fda2ba9904a2b5643fd8f979fc.ctex"]
+source_file="res://assets/carlage.png"
+dest_files=["res://.godot/imported/carlage.png-7460eb607c58665e92e56b395b5bef5b.ctex"]
 
 [params]
 
