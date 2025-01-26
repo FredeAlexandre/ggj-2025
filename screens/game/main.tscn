@@ -13,7 +13,7 @@ bubble_scene = ExtResource("2_8rg8y")
 [node name="TextureRect" parent="." instance=ExtResource("3_lgxld")]
 
 [node name="Soap" parent="." instance=ExtResource("3_lb41u")]
-position = Vector2(93, 344)
+position = Vector2(5215, -35563)
 
 [node name="Node" type="Node" parent="."]
 
@@ -36,9 +36,598 @@ position = Vector2(3316, -362)
 rotation = 2.4295
 scale = Vector2(1, 1)
 
-[node name="Enemy17" parent="Node" instance=ExtResource("5_1qxj4")]
-position = Vector2(25714, 1968)
+[node name="Enemy30" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(31788.6, 27031.6)
+rotation = 2.51325
+scale = Vector2(1, 1)
+
+[node name="Enemy50" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(41983.5, -6367.69)
+rotation = 0.418839
+scale = Vector2(1, 1)
+
+[node name="Enemy50" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(27756.5, 385.545)
+rotation = 0.418839
+scale = Vector2(1, 1)
+
+[node name="Enemy51" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(25255.9, -310.823)
+rotation = 1.2566
+scale = Vector2(1, 1)
+
+[node name="Enemy52" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(21785.6, -638.769)
+rotation = 2.09436
+scale = Vector2(1, 1)
+
+[node name="Enemy53" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(22440, -15881.1)
+rotation = 2.93211
+scale = Vector2(1, 1)
+
+[node name="Enemy54" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(19497.5, -14306.8)
+rotation = -2.51331
+scale = Vector2(1, 1)
+
+[node name="Enemy55" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(21466.3, -13197.5)
+rotation = -1.67555
+scale = Vector2(1, 1)
+
+[node name="Enemy56" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(22692.6, -10274.7)
+rotation = -0.837795
+scale = Vector2(1, 1)
+
+[node name="Enemy57" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(21659.2, 4355.84)
+rotation = -3.64929e-05
+scale = Vector2(1, 1)
+
+[node name="Enemy58" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(24558.8, 3865.97)
+rotation = 0.837722
+scale = Vector2(1, 1)
+
+[node name="Enemy59" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(26307, 5264.94)
+rotation = 1.67548
+scale = Vector2(1, 1)
+
+[node name="Enemy60" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(25017.5, 6583.91)
+rotation = 2.51324
+scale = Vector2(1, 1)
+
+[node name="Enemy61" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(23174.5, 6508.2)
+rotation = -2.93219
+scale = Vector2(1, 1)
+
+[node name="Enemy62" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(24156.2, -8863.03)
+rotation = -2.09443
+scale = Vector2(1, 1)
+
+[node name="Enemy63" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(24646.1, 9258.61)
+rotation = -1.25667
+scale = Vector2(1, 1)
+
+[node name="Enemy64" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(6517.89, 14366.8)
+rotation = -0.418912
+scale = Vector2(1, 1)
+
+[node name="Enemy65" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(7465.81, 16076.1)
+rotation = 0.418847
+scale = Vector2(1, 1)
+
+[node name="Enemy66" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(25750.4, 11422)
+rotation = 1.25661
+scale = Vector2(1, 1)
+
+[node name="Enemy67" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(27250.5, -3302.88)
+rotation = 2.09436
+scale = Vector2(1, 1)
+
+[node name="Enemy68" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(26932.3, 13358.1)
+rotation = 2.93212
+scale = Vector2(1, 1)
+
+[node name="Enemy70" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(30263.9, 4995.35)
+rotation = -2.9087e-05
+scale = Vector2(1, 1)
+
+[node name="Enemy71" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(8542.92, 13184.9)
+rotation = 0.83773
+scale = Vector2(1, 1)
+
+[node name="Enemy72" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(11009.3, 15728.5)
+rotation = 1.67549
+scale = Vector2(1, 1)
+
+[node name="Enemy17" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(11597.2, 19013.5)
+rotation = 2.51325
+scale = Vector2(1, 1)
+
+[node name="Enemy73" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(13260.6, 17483.8)
+rotation = -2.93217
+scale = Vector2(1, 1)
+
+[node name="Enemy74" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(16419.3, 17220.8)
+rotation = -2.09442
+scale = Vector2(1, 1)
+
+[node name="Enemy75" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(15558, 14976.7)
+rotation = -1.25666
+scale = Vector2(1, 1)
+
+[node name="Enemy69" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(31698.9, 2832.42)
+rotation = -0.837788
+scale = Vector2(1, 1)
+
+[node name="Enemy31" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(12685.5, -2064.16)
+rotation = -2.93217
+scale = Vector2(1, 1)
+
+[node name="Enemy32" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(15276.2, -1902.85)
+rotation = -2.09441
+scale = Vector2(1, 1)
+
+[node name="Enemy76" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(13684.2, 11939.5)
+rotation = -0.418905
+scale = Vector2(1, 1)
+
+[node name="Enemy77" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(15554.9, 10709.2)
+rotation = 0.418854
+scale = Vector2(1, 1)
+
+[node name="Enemy78" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(18714.8, 12471.2)
+rotation = 1.25661
+scale = Vector2(1, 1)
+
+[node name="Enemy79" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(18073.3, 14200.6)
+rotation = 2.09437
+scale = Vector2(1, 1)
+
+[node name="Enemy80" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(18214.2, 16265)
+rotation = 2.93213
+scale = Vector2(1, 1)
+
+[node name="Enemy81" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(20310.1, 15802.6)
+rotation = -2.5133
+scale = Vector2(1, 1)
+
+[node name="Enemy82" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(21104.5, 13738.7)
+rotation = -1.67554
+scale = Vector2(1, 1)
+
+[node name="Enemy83" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(23023.1, 13365.4)
+rotation = -0.83778
+scale = Vector2(1, 1)
+
+[node name="Enemy84" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(22708.9, 15421)
+rotation = -2.19643e-05
+scale = Vector2(1, 1)
+
+[node name="Enemy33" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(18738.8, -2303.52)
+rotation = -1.25666
+scale = Vector2(1, 1)
+
+[node name="Enemy34" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(20749.6, -3651.89)
+rotation = -0.418898
+scale = Vector2(1, 1)
+
+[node name="Enemy35" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(23300.5, -5803.52)
+rotation = 0.418861
+scale = Vector2(1, 1)
+
+[node name="Enemy36" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(21144.2, -6479.21)
 rotation = 1.25663
+scale = Vector2(1, 1)
+
+[node name="Enemy37" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(19337, -9083.22)
+rotation = 2.09438
+scale = Vector2(1, 1)
+
+[node name="Enemy38" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(17824.2, -7215.29)
+rotation = 2.93214
+scale = Vector2(1, 1)
+
+[node name="Enemy39" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(15089.7, -6133.3)
+rotation = -2.51329
+scale = Vector2(1, 1)
+
+[node name="Enemy40" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(13088.9, -7138.27)
+rotation = -1.67553
+scale = Vector2(1, 1)
+
+[node name="Enemy41" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(14076, -8696.5)
+rotation = -0.837773
+scale = Vector2(1, 1)
+
+[node name="Enemy42" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(15894.5, -9005.59)
+rotation = -1.45435e-05
+scale = Vector2(1, 1)
+
+[node name="Enemy43" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(17611.9, -10159.8)
+rotation = 0.837744
+scale = Vector2(1, 1)
+
+[node name="Enemy44" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(16163.5, -11743.7)
+rotation = 1.6755
+scale = Vector2(1, 1)
+
+[node name="Enemy45" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(13978.8, -11399.8)
+rotation = 2.51326
+scale = Vector2(1, 1)
+
+[node name="Enemy46" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(12696.3, -12874.6)
+rotation = -2.93217
+scale = Vector2(1, 1)
+
+[node name="Enemy47" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(14633.6, -13630.3)
+rotation = -2.09441
+scale = Vector2(1, 1)
+
+[node name="Enemy48" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(15709.5, -15309)
+rotation = -1.25665
+scale = Vector2(1, 1)
+
+[node name="Enemy49" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(13075, -15278.3)
+rotation = -0.41889
+scale = Vector2(1, 1)
+
+[node name="Enemy20" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(8320.5, -3637.96)
+rotation = 2.09439
+scale = Vector2(1, 1)
+
+[node name="Enemy19" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(9274.5, -6051.96)
+rotation = 2.93214
+scale = Vector2(1, 1)
+
+[node name="Enemy21" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(9963.5, -9468.96)
+rotation = -2.51328
+scale = Vector2(1, 1)
+
+[node name="Enemy18" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(9302.5, -11798)
+rotation = -1.67552
+scale = Vector2(1, 1)
+
+[node name="Enemy16" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(8044.5, -14889)
+rotation = -0.837766
+scale = Vector2(1, 1)
+
+[node name="Enemy24" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(6735.5, -13047)
+scale = Vector2(1, 1)
+
+[node name="Enemy22" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(5009.5, -10117)
+rotation = 1.67551
+scale = Vector2(1, 1)
+
+[node name="Enemy15" parent="Node/Enemy50" instance=ExtResource("5_1qxj4")]
+position = Vector2(5193.5, -7181.96)
+rotation = 2.51327
+scale = Vector2(1, 1)
+
+[node name="Enemy51" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(39483, -7064.06)
+rotation = 1.2566
+scale = Vector2(1, 1)
+
+[node name="Enemy52" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(36012.6, -7392)
+rotation = 2.09436
+scale = Vector2(1, 1)
+
+[node name="Enemy53" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(33765.5, -6491.11)
+rotation = 2.93211
+scale = Vector2(1, 1)
+
+[node name="Enemy54" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(30823, -4916.81)
+rotation = -2.51331
+scale = Vector2(1, 1)
+
+[node name="Enemy55" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(32791.8, -3807.58)
+rotation = -1.67555
+scale = Vector2(1, 1)
+
+[node name="Enemy56" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(34018.1, -884.774)
+rotation = -0.837795
+scale = Vector2(1, 1)
+
+[node name="Enemy57" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(35886.2, -2397.39)
+rotation = -3.64929e-05
+scale = Vector2(1, 1)
+
+[node name="Enemy58" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(38785.9, -2887.26)
+rotation = 0.837722
+scale = Vector2(1, 1)
+
+[node name="Enemy59" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(40534.1, -1488.29)
+rotation = 1.67548
+scale = Vector2(1, 1)
+
+[node name="Enemy60" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(39244.6, -169.32)
+rotation = 2.51324
+scale = Vector2(1, 1)
+
+[node name="Enemy61" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(37401.5, -245.03)
+rotation = -2.93219
+scale = Vector2(1, 1)
+
+[node name="Enemy62" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(35481.7, 526.933)
+rotation = -2.09443
+scale = Vector2(1, 1)
+
+[node name="Enemy63" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(38873.2, 2505.38)
+rotation = -1.25667
+scale = Vector2(1, 1)
+
+[node name="Enemy64" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(41081.6, 2623.11)
+rotation = -0.418912
+scale = Vector2(1, 1)
+
+[node name="Enemy65" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(42029.5, 4332.38)
+rotation = 0.418847
+scale = Vector2(1, 1)
+
+[node name="Enemy66" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(39977.4, 4668.78)
+rotation = 1.25661
+scale = Vector2(1, 1)
+
+[node name="Enemy67" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(38576, 6087.09)
+rotation = 2.09436
+scale = Vector2(1, 1)
+
+[node name="Enemy68" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(41159.3, 6604.82)
+rotation = 2.93212
+scale = Vector2(1, 1)
+
+[node name="Enemy70" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(44490.9, -1757.89)
+rotation = -2.9087e-05
+scale = Vector2(1, 1)
+
+[node name="Enemy71" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(43106.6, 1441.22)
+rotation = 0.83773
+scale = Vector2(1, 1)
+
+[node name="Enemy72" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(45573, 3984.76)
+rotation = 1.67549
+scale = Vector2(1, 1)
+
+[node name="Enemy17" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(46160.9, 7269.77)
+rotation = 2.51325
+scale = Vector2(1, 1)
+
+[node name="Enemy73" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(47824.3, 5740.14)
+rotation = -2.93217
+scale = Vector2(1, 1)
+
+[node name="Enemy74" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(50983, 5477.05)
+rotation = -2.09442
+scale = Vector2(1, 1)
+
+[node name="Enemy75" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(50121.7, 3232.97)
+rotation = -1.25666
+scale = Vector2(1, 1)
+
+[node name="Enemy69" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(45925.9, -3920.82)
+rotation = -0.837788
+scale = Vector2(1, 1)
+
+[node name="Enemy31" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(24011, 7325.8)
+rotation = -2.93217
+scale = Vector2(1, 1)
+
+[node name="Enemy32" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(26601.7, 7487.12)
+rotation = -2.09441
+scale = Vector2(1, 1)
+
+[node name="Enemy76" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(48247.9, 195.84)
+rotation = -0.418905
+scale = Vector2(1, 1)
+
+[node name="Enemy77" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(50118.6, -1034.46)
+rotation = 0.418854
+scale = Vector2(1, 1)
+
+[node name="Enemy78" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(53278.5, 727.509)
+rotation = 1.25661
+scale = Vector2(1, 1)
+
+[node name="Enemy79" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(52637, 2456.92)
+rotation = 2.09437
+scale = Vector2(1, 1)
+
+[node name="Enemy80" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(52777.9, 4521.32)
+rotation = 2.93213
+scale = Vector2(1, 1)
+
+[node name="Enemy81" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(54873.8, 4058.94)
+rotation = -2.5133
+scale = Vector2(1, 1)
+
+[node name="Enemy82" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(55668.2, 1995)
+rotation = -1.67554
+scale = Vector2(1, 1)
+
+[node name="Enemy83" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(57586.8, 1621.69)
+rotation = -0.83778
+scale = Vector2(1, 1)
+
+[node name="Enemy84" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(57272.6, 3677.29)
+rotation = -2.19643e-05
+scale = Vector2(1, 1)
+
+[node name="Enemy33" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(30064.3, 7086.45)
+rotation = -1.25666
+scale = Vector2(1, 1)
+
+[node name="Enemy34" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(32075.1, 5738.08)
+rotation = -0.418898
+scale = Vector2(1, 1)
+
+[node name="Enemy35" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(34626, 3586.45)
+rotation = 0.418861
+scale = Vector2(1, 1)
+
+[node name="Enemy36" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(32469.7, 2910.75)
+rotation = 1.25663
+scale = Vector2(1, 1)
+
+[node name="Enemy37" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(30662.5, 306.746)
+rotation = 2.09438
+scale = Vector2(1, 1)
+
+[node name="Enemy38" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(29149.7, 2174.68)
+rotation = 2.93214
+scale = Vector2(1, 1)
+
+[node name="Enemy39" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(26415.2, 3256.66)
+rotation = -2.51329
+scale = Vector2(1, 1)
+
+[node name="Enemy40" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(24414.4, 2251.7)
+rotation = -1.67553
+scale = Vector2(1, 1)
+
+[node name="Enemy41" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(25401.5, 693.466)
+rotation = -0.837773
+scale = Vector2(1, 1)
+
+[node name="Enemy42" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(27220, 384.375)
+rotation = -1.45435e-05
+scale = Vector2(1, 1)
+
+[node name="Enemy43" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(28937.4, -769.837)
+rotation = 0.837744
+scale = Vector2(1, 1)
+
+[node name="Enemy44" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(27489, -2353.78)
+rotation = 1.6755
+scale = Vector2(1, 1)
+
+[node name="Enemy45" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(25304.3, -2009.83)
+rotation = 2.51326
+scale = Vector2(1, 1)
+
+[node name="Enemy46" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(24021.8, -3484.68)
+rotation = -2.93217
+scale = Vector2(1, 1)
+
+[node name="Enemy47" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(25959.1, -4240.35)
+rotation = -2.09441
+scale = Vector2(1, 1)
+
+[node name="Enemy48" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(27035, -5919)
+rotation = -1.25665
+scale = Vector2(1, 1)
+
+[node name="Enemy49" parent="Node" instance=ExtResource("5_1qxj4")]
+position = Vector2(24400.5, -5888.37)
+rotation = -0.41889
 scale = Vector2(1, 1)
 
 [node name="Enemy20" parent="Node" instance=ExtResource("5_1qxj4")]
