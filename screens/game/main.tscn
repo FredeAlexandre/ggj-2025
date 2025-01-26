@@ -18,3 +18,5 @@ stretch_mode = 1
 
 [node name="Soap" parent="." instance=ExtResource("3_lb41u")]
 position = Vector2(93, 344)
+
+[node name="Camera2D" type="Camera2D" parent="Soap"]
