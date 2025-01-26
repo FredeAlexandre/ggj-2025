@@ -15,7 +15,7 @@ bubble_scene = ExtResource("2_8rg8y")
 [node name="TextureRect" parent="." instance=ExtResource("3_lgxld")]
 
 [node name="Soap" parent="." instance=ExtResource("3_lb41u")]
-position = Vector2(5215, -35563)
+position = Vector2(542, 1519)
 
 [node name="Camera2D2" type="Camera2D" parent="Soap"]
 
