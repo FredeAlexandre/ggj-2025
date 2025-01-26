@@ -9,11 +9,8 @@ func _ready() -> void:
 
 func _input(event: InputEvent):
 	if (event is InputEventScreenTouch or event is InputEventMouseButton) and event.pressed:
-		# Récupérer la position du toucher/mouse
-		var screen_position = event.position
 		
-		# Convertir la position d'écran en position monde en tenant compte de la caméra
-		var world_position = (screen_position - camera.position) / camera.zoom
+		var world_position = camera.get_global_mouse_position()
 
 		# Instancier le cercle
 		var bubble = bubble_scene.instantiate()
