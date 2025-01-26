@@ -7,8 +7,12 @@
 size = Vector2(85, 57)
 
 [node name="Soap" type="RigidBody2D"]
+collision_layer = 2
 gravity_scale = 0.0
-linear_velocity = Vector2(300, 0)
+lock_rotation = true
+contact_monitor = true
+max_contacts_reported = 10
+constant_force = Vector2(300, 0)
 script = ExtResource("1_njai4")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
@@ -18,3 +22,5 @@ texture = ExtResource("1_8b2qg")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(1.5, -0.5)
 shape = SubResource("RectangleShape2D_cs8ms")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

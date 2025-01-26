@@ -11,7 +11,3 @@ func _input(event: InputEvent):
 		# Positionner le cercle à l'endroit du toucher
 		bubble.position = event.position
 		
-		await get_tree().create_timer(2.0).timeout
-		
-		bubble.queue_free()
-		

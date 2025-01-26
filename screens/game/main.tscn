@@ -1,8 +1,8 @@
 [gd_scene load_steps=5 format=3 uid="uid://cbqcecafext8y"]
 
 [ext_resource type="Script" path="res://screens/game/scripts/main.gd" id="1_nyida"]
-[ext_resource type="PackedScene" path="res://scenes/bubble.tscn" id="2_8rg8y"]
-[ext_resource type="PackedScene" path="res://scenes/soap.tscn" id="3_lb41u"]
+[ext_resource type="PackedScene" uid="uid://cpel2scqfh5vk" path="res://scenes/bubble.tscn" id="2_8rg8y"]
+[ext_resource type="PackedScene" uid="uid://dd2ncy6rypp4" path="res://scenes/soap.tscn" id="3_lb41u"]
 [ext_resource type="Texture2D" uid="uid://dcn4jbvyrsf45" path="res://assets/carlage.png" id="4_gk5sc"]
 
 [node name="Node2D" type="Node2D"]
