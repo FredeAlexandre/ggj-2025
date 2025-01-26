@@ -1,13 +1,12 @@
-[gd_scene load_steps=7 format=3 uid="uid://cbqcecafext8y"]
+[gd_scene load_steps=8 format=3 uid="uid://cbqcecafext8y"]
 
 [ext_resource type="Script" path="res://screens/game/scripts/main.gd" id="1_nyida"]
 [ext_resource type="PackedScene" uid="uid://cpel2scqfh5vk" path="res://scenes/bubble.tscn" id="2_8rg8y"]
 [ext_resource type="PackedScene" uid="uid://dd2ncy6rypp4" path="res://scenes/soap.tscn" id="3_lb41u"]
-[ext_resource type="Texture2D" uid="uid://dcn4jbvyrsf45" path="res://assets/carlage.png" id="4_gk5sc"]
-[ext_resource type="AudioStream" uid="uid://cswbd5efbtgh1" path="res://assets/soapSound.mp3" id="5_58ivy"]
-[ext_resource type="AudioStream" uid="uid://c3qlhtbgg37me" path="res://assets/gameMusic.mp3" id="6_82kr2"]
 [ext_resource type="PackedScene" uid="uid://1end8vgkh6br" path="res://scenes/background.tscn" id="3_lgxld"]
 [ext_resource type="PackedScene" uid="uid://drpe1u6vvqjtd" path="res://scenes/enemy.tscn" id="5_1qxj4"]
+[ext_resource type="AudioStream" uid="uid://cswbd5efbtgh1" path="res://assets/soapSound.mp3" id="5_58ivy"]
+[ext_resource type="AudioStream" uid="uid://c3qlhtbgg37me" path="res://assets/gameMusic.mp3" id="6_82kr2"]
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_nyida")
@@ -18,7 +17,7 @@ bubble_scene = ExtResource("2_8rg8y")
 [node name="Soap" parent="." instance=ExtResource("3_lb41u")]
 position = Vector2(5215, -35563)
 
-[node name="Camera2D" type="Camera2D" parent="Soap"]
+[node name="Camera2D2" type="Camera2D" parent="Soap"]
 
 [node name="AudioStreamPlayer2D2" type="AudioStreamPlayer2D" parent="Soap"]
 position = Vector2(-93, -344)
@@ -30,12 +29,12 @@ autoplay = true
 stream = ExtResource("5_58ivy")
 volume_db = -18.571
 autoplay = true
+
 [node name="Node" type="Node" parent="."]
 
 [node name="Enemy2" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(3232, 676)
 rotation = 2.17817
-scale = Vector2(1, 1)
 
 [node name="Enemy" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(1745, 22.9999)
@@ -44,17 +43,14 @@ rotation = 1.08909
 [node name="Enemy3" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(2857, 1074)
 rotation = -1.92684
-scale = Vector2(1, 1)
 
 [node name="Enemy4" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(3316, -362)
 rotation = 2.4295
-scale = Vector2(1, 1)
 
 [node name="Enemy30" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(31788.6, 27031.6)
 rotation = 2.51325
-scale = Vector2(1, 1)
 
 [node name="Enemy85" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(67184, 5273.13)
@@ -89,7 +85,6 @@ scale = Vector2(1.00001, 1.00001)
 [node name="Enemy91" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(66893.4, -6525.21)
 rotation = -0.418956
-scale = Vector2(1, 1)
 
 [node name="Enemy92" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(59999, 6420.46)
@@ -114,7 +109,6 @@ scale = Vector2(1.00001, 1.00001)
 [node name="Enemy96" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(60508, 9003.08)
 rotation = -2.51335
-scale = Vector2(1, 1)
 
 [node name="Enemy97" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(67656.4, -4640.26)
@@ -129,601 +123,481 @@ scale = Vector2(1.00001, 1.00001)
 [node name="Enemy99" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(42095, 9408.15)
 rotation = -7.25683e-05
-scale = Vector2(1, 1)
 
 [node name="Enemy100" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(73055, 3600.93)
 rotation = 0.837686
-scale = Vector2(1, 1)
 
 [node name="Enemy101" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(91652, 6785.52)
 rotation = 1.67544
-scale = Vector2(1, 1)
 
 [node name="Enemy102" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(68221.9, 1697.75)
 rotation = 2.5132
-scale = Vector2(1, 1)
 
 [node name="Enemy103" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(91944.3, 9034.9)
 rotation = -2.93222
-scale = Vector2(1, 1)
 
 [node name="Enemy104" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(98389.1, 2750)
 rotation = 0.41881
-scale = Vector2(1, 1)
 
 [node name="Enemy105" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(44425.7, 9152)
 rotation = 1.25657
-scale = Vector2(1, 1)
 
 [node name="Enemy106" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(76433.6, 4724.51)
 rotation = 2.09433
-scale = Vector2(1, 1)
 
 [node name="Enemy107" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(75634.7, 7964.68)
 rotation = 2.93209
-scale = Vector2(1, 1)
 
 [node name="Enemy108" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(77776.3, 7243.74)
 rotation = -2.51333
-scale = Vector2(1, 1)
 
 [node name="Enemy109" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(80769, 8288.05)
 rotation = -1.67558
-scale = Vector2(1, 1)
 
 [node name="Enemy110" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(80894.8, 5887.65)
 rotation = -0.837824
-scale = Vector2(1, 1)
 
 [node name="Enemy111" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(69790.5, 9111.9)
 rotation = -0.418948
-scale = Vector2(1, 1)
 
 [node name="Enemy112" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(54412, -3094.22)
 rotation = -2.51333
-scale = Vector2(1, 1)
 
 [node name="Enemy113" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(56713.1, -1893.23)
 rotation = -1.67558
-scale = Vector2(1, 1)
 
 [node name="Enemy114" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(49629, 10105.2)
 rotation = -6.5535e-05
-scale = Vector2(1, 1)
 
 [node name="Enemy115" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(51838.4, 9742.08)
 rotation = 0.837693
-scale = Vector2(1, 1)
 
 [node name="Enemy116" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(84797.8, 4882.64)
 rotation = 1.67545
-scale = Vector2(1, 1)
 
 [node name="Enemy117" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(83508.3, 6201.65)
 rotation = 2.51321
-scale = Vector2(1, 1)
 
 [node name="Enemy118" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(82797.5, 8144.92)
 rotation = -2.93222
-scale = Vector2(1, 1)
 
 [node name="Enemy119" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(84900.3, 8574.92)
 rotation = -2.09446
-scale = Vector2(1, 1)
 
 [node name="Enemy120" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(86465.5, 7012.48)
 rotation = -1.2567
-scale = Vector2(1, 1)
 
 [node name="Enemy121" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(88370, 7451.7)
 rotation = -0.418941
-scale = Vector2(1, 1)
 
 [node name="Enemy122" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(87246.9, 9201.84)
 rotation = 0.418817
-scale = Vector2(1, 1)
 
 [node name="Enemy123" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(60039.5, -850.992)
 rotation = -0.837817
-scale = Vector2(1, 1)
 
 [node name="Enemy124" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(62424.8, -1265.04)
 rotation = -5.82335e-05
-scale = Vector2(1, 1)
 
 [node name="Enemy125" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(65630.3, -2193.22)
 rotation = 0.8377
-scale = Vector2(1, 1)
 
 [node name="Enemy126" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(63935.1, -3687.51)
 rotation = 1.67547
-scale = Vector2(1, 1)
 
 [node name="Enemy127" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(63343.2, -6801.4)
 rotation = 2.51322
-scale = Vector2(1, 1)
 
 [node name="Enemy128" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(61201.5, -5710.19)
 rotation = -2.93221
-scale = Vector2(1, 1)
 
 [node name="Enemy129" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(58263.3, -5833.85)
 rotation = -2.09445
-scale = Vector2(1, 1)
 
 [node name="Enemy130" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(56844.2, -7565.69)
 rotation = -1.25669
-scale = Vector2(1, 1)
 
 [node name="Enemy131" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(78677.7, -491.769)
 rotation = -0.418934
-scale = Vector2(1, 1)
 
 [node name="Enemy132" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(60166.7, -8130.56)
 rotation = 0.418825
-scale = Vector2(1, 1)
 
 [node name="Enemy133" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(82503.1, -390.546)
 rotation = 1.25658
-scale = Vector2(1, 1)
 
 [node name="Enemy134" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(81824.1, -2426.64)
 rotation = 2.09434
-scale = Vector2(1, 1)
 
 [node name="Enemy135" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(79688.4, -3000.91)
 rotation = 2.9321
-scale = Vector2(1, 1)
 
 [node name="Enemy136" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(79116.5, -4869.9)
 rotation = -2.51333
-scale = Vector2(1, 1)
 
 [node name="Enemy137" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(81193.7, -4772.34)
 rotation = -1.67557
-scale = Vector2(1, 1)
 
 [node name="Enemy138" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(82859.3, -5868.32)
 rotation = -0.83781
-scale = Vector2(1, 1)
 
 [node name="Enemy139" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(80440.1, -6911.79)
 rotation = -5.09618e-05
-scale = Vector2(1, 1)
 
 [node name="Enemy140" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(51064.4, -6307.24)
 rotation = 2.51322
-scale = Vector2(1, 1)
 
 [node name="Enemy141" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(52917.7, -8124.59)
 rotation = -2.9322
-scale = Vector2(1, 1)
 
 [node name="Enemy142" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(75234.8, -2870.02)
 rotation = -2.09444
-scale = Vector2(1, 1)
 
 [node name="Enemy143" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(75578.2, -5266.54)
 rotation = -1.25669
-scale = Vector2(1, 1)
 
 [node name="Enemy144" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(75686, -8602)
 rotation = -0.418927
-scale = Vector2(1, 1)
 
 [node name="Enemy145" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(73741, -7451.59)
 rotation = 0.418839
-scale = Vector2(1, 1)
 
 [node name="Enemy146" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(70972.6, -5476.81)
 rotation = 2.09435
-scale = Vector2(1, 1)
 
 [node name="Enemy147" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(69947, -2720.67)
 rotation = 2.93211
-scale = Vector2(1, 1)
 
 [node name="Enemy50" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(41983.5, -6367.69)
 rotation = 0.418839
-scale = Vector2(1, 1)
 
 [node name="Enemy51" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(39483, -7064.06)
 rotation = 1.2566
-scale = Vector2(1, 1)
 
 [node name="Enemy52" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(36012.6, -7392)
 rotation = 2.09436
-scale = Vector2(1, 1)
 
 [node name="Enemy53" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(33765.5, -6491.11)
 rotation = 2.93211
-scale = Vector2(1, 1)
 
 [node name="Enemy54" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(30823, -4916.81)
 rotation = -2.51331
-scale = Vector2(1, 1)
 
 [node name="Enemy55" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(32791.8, -3807.58)
 rotation = -1.67555
-scale = Vector2(1, 1)
 
 [node name="Enemy56" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(34018.1, -884.774)
 rotation = -0.837795
-scale = Vector2(1, 1)
 
 [node name="Enemy57" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(35886.2, -2397.39)
 rotation = -3.64929e-05
-scale = Vector2(1, 1)
 
 [node name="Enemy58" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(38785.9, -2887.26)
 rotation = 0.837722
-scale = Vector2(1, 1)
 
 [node name="Enemy59" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(40534.1, -1488.29)
 rotation = 1.67548
-scale = Vector2(1, 1)
 
 [node name="Enemy60" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(39244.6, -169.32)
 rotation = 2.51324
-scale = Vector2(1, 1)
 
 [node name="Enemy61" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(37401.5, -245.03)
 rotation = -2.93219
-scale = Vector2(1, 1)
 
 [node name="Enemy62" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(35481.7, 526.933)
 rotation = -2.09443
-scale = Vector2(1, 1)
 
 [node name="Enemy63" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(38873.2, 2505.38)
 rotation = -1.25667
-scale = Vector2(1, 1)
 
 [node name="Enemy64" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(41081.6, 2623.11)
 rotation = -0.418912
-scale = Vector2(1, 1)
 
 [node name="Enemy65" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(42029.5, 4332.38)
 rotation = 0.418847
-scale = Vector2(1, 1)
 
 [node name="Enemy66" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(39977.4, 4668.78)
 rotation = 1.25661
-scale = Vector2(1, 1)
 
 [node name="Enemy67" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(38576, 6087.09)
 rotation = 2.09436
-scale = Vector2(1, 1)
 
 [node name="Enemy68" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(41159.3, 6604.82)
 rotation = 2.93212
-scale = Vector2(1, 1)
 
 [node name="Enemy70" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(44490.9, -1757.89)
 rotation = -2.9087e-05
-scale = Vector2(1, 1)
 
 [node name="Enemy71" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(43106.6, 1441.22)
 rotation = 0.83773
-scale = Vector2(1, 1)
 
 [node name="Enemy72" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(45573, 3984.76)
 rotation = 1.67549
-scale = Vector2(1, 1)
 
 [node name="Enemy17" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(46160.9, 7269.77)
 rotation = 2.51325
-scale = Vector2(1, 1)
 
 [node name="Enemy73" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(47824.3, 5740.14)
 rotation = -2.93217
-scale = Vector2(1, 1)
 
 [node name="Enemy74" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(50983, 5477.05)
 rotation = -2.09442
-scale = Vector2(1, 1)
 
 [node name="Enemy75" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(50121.7, 3232.97)
 rotation = -1.25666
-scale = Vector2(1, 1)
 
 [node name="Enemy69" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(45925.9, -3920.82)
 rotation = -0.837788
-scale = Vector2(1, 1)
 
 [node name="Enemy31" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(24011, 7325.8)
 rotation = -2.93217
-scale = Vector2(1, 1)
 
 [node name="Enemy32" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(26601.7, 7487.12)
 rotation = -2.09441
-scale = Vector2(1, 1)
 
 [node name="Enemy76" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(48247.9, 195.84)
 rotation = -0.418905
-scale = Vector2(1, 1)
 
 [node name="Enemy77" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(50118.6, -1034.46)
 rotation = 0.418854
-scale = Vector2(1, 1)
 
 [node name="Enemy78" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(53278.5, 727.509)
 rotation = 1.25661
-scale = Vector2(1, 1)
 
 [node name="Enemy79" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(52637, 2456.92)
 rotation = 2.09437
-scale = Vector2(1, 1)
 
 [node name="Enemy80" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(52777.9, 4521.32)
 rotation = 2.93213
-scale = Vector2(1, 1)
 
 [node name="Enemy81" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(54873.8, 4058.94)
 rotation = -2.5133
-scale = Vector2(1, 1)
 
 [node name="Enemy82" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(55668.2, 1995)
 rotation = -1.67554
-scale = Vector2(1, 1)
 
 [node name="Enemy83" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(57586.8, 1621.69)
 rotation = -0.83778
-scale = Vector2(1, 1)
 
 [node name="Enemy84" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(57272.6, 3677.29)
 rotation = -2.19643e-05
-scale = Vector2(1, 1)
 
 [node name="Enemy33" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(30064.3, 7086.45)
 rotation = -1.25666
-scale = Vector2(1, 1)
 
 [node name="Enemy34" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(32075.1, 5738.08)
 rotation = -0.418898
-scale = Vector2(1, 1)
 
 [node name="Enemy35" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(34626, 3586.45)
 rotation = 0.418861
-scale = Vector2(1, 1)
 
 [node name="Enemy36" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(32469.7, 2910.75)
 rotation = 1.25663
-scale = Vector2(1, 1)
 
 [node name="Enemy37" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(30662.5, 306.746)
 rotation = 2.09438
-scale = Vector2(1, 1)
 
 [node name="Enemy38" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(29149.7, 2174.68)
 rotation = 2.93214
-scale = Vector2(1, 1)
 
 [node name="Enemy39" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(26415.2, 3256.66)
 rotation = -2.51329
-scale = Vector2(1, 1)
 
 [node name="Enemy40" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(24414.4, 2251.7)
 rotation = -1.67553
-scale = Vector2(1, 1)
 
 [node name="Enemy41" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(25401.5, 693.466)
 rotation = -0.837773
-scale = Vector2(1, 1)
 
 [node name="Enemy42" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(27220, 384.375)
 rotation = -1.45435e-05
-scale = Vector2(1, 1)
 
 [node name="Enemy43" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(28937.4, -769.837)
 rotation = 0.837744
-scale = Vector2(1, 1)
 
 [node name="Enemy44" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(27489, -2353.78)
 rotation = 1.6755
-scale = Vector2(1, 1)
 
 [node name="Enemy45" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(25304.3, -2009.83)
 rotation = 2.51326
-scale = Vector2(1, 1)
 
 [node name="Enemy46" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(24021.8, -3484.68)
 rotation = -2.93217
-scale = Vector2(1, 1)
 
 [node name="Enemy47" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(25959.1, -4240.35)
 rotation = -2.09441
-scale = Vector2(1, 1)
 
 [node name="Enemy48" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(27035, -5919)
 rotation = -1.25665
-scale = Vector2(1, 1)
 
 [node name="Enemy49" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(24400.5, -5888.37)
 rotation = -0.41889
-scale = Vector2(1, 1)
 
 [node name="Enemy20" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(19646, 5752)
 rotation = 2.09439
-scale = Vector2(1, 1)
 
 [node name="Enemy19" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(20600, 3338)
 rotation = 2.93214
-scale = Vector2(1, 1)
 
 [node name="Enemy21" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(21289, -79)
 rotation = -2.51328
-scale = Vector2(1, 1)
 
 [node name="Enemy18" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(20628, -2408)
 rotation = -1.67552
-scale = Vector2(1, 1)
 
 [node name="Enemy16" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(19370, -5499)
 rotation = -0.837766
-scale = Vector2(1, 1)
 
 [node name="Enemy24" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(18061, -3657)
-scale = Vector2(1, 1)
 
 [node name="Enemy23" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(15026, -2743)
 rotation = 0.837751
-scale = Vector2(1, 1)
 
 [node name="Enemy22" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(16335, -727)
 rotation = 1.67551
-scale = Vector2(1, 1)
 
 [node name="Enemy15" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(16519, 2208)
 rotation = 2.51327
-scale = Vector2(1, 1)
 
 [node name="Enemy27" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(14944.9, 3800.33)
 rotation = -2.93216
-scale = Vector2(1, 1)
 
 [node name="Enemy26" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(13768, 2380)
 rotation = -2.0944
-scale = Vector2(1, 1)
 
 [node name="Enemy25" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(14036, 555)
 rotation = -1.25664
-scale = Vector2(1, 1)
 
 [node name="Enemy28" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(13469, -1435)
 rotation = -0.418883
-scale = Vector2(1, 1)
 
 [node name="Enemy14" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(11515, -547)
 rotation = 0.418876
-scale = Vector2(1, 1)
 
 [node name="Enemy13" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(11167, 1637)
 rotation = 1.25663
-scale = Vector2(1, 1)
 
 [node name="Enemy29" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(9368, 2401)
 rotation = 2.09439
-scale = Vector2(1, 1)
 
 [node name="Enemy12" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(9248, 325)
@@ -756,4 +630,3 @@ rotation = -3.01593
 [node name="Enemy9" parent="Node" instance=ExtResource("5_1qxj4")]
 position = Vector2(4533, 396)
 rotation = 2.17817
-scale = Vector2(1, 1)
